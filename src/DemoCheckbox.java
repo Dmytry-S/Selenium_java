@@ -12,7 +12,7 @@ public class DemoCheckbox {
 		Select s = new Select(driver.findElement(By.id("property_id_136")));
 		s.selectByValue("72");
 		Select ss = new Select(driver.findElement(By.xpath("//*[@id=\"property_id_143\"]")));
-		ss.selectByVisibleText("2");
+		ss.selectByVisibleText("1");
 		
 
 	}
